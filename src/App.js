@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import { Cards } from "react-responsive-cards";
+
+const App = () => {
+  const details = [
+    {
+      title: "The Card Title",
+      description: "This is a short description",
+      image: "https://<image_here>.jpg",
+      renderFooter: <div>{"Custom JSX"}</div>,
+      handleOnClick: () => alert("Custom Event"),
+    },
+  ];
+
+  return <Cards details={details} />;
+};
 
 export default App;

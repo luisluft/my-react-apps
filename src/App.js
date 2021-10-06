@@ -107,6 +107,44 @@ const App = () => {
       handleOnClick: () =>
         window.open("https://github.com/luisluft/react-menu", "_blank").focus(),
     },
+    {
+      title: "react-accordion",
+      description:
+        "Simple react app used to learn how to create multiple UI elements containing show more and show less text toggle button given a JSON object.",
+      image: "https://i.imgur.com/1Q94K3J.png",
+      handleOnClick: () =>
+        window
+          .open("https://github.com/luisluft/react-accordion", "_blank")
+          .focus(),
+    },
+    {
+      title: "react-reviews",
+      description:
+        "Simple react app used to learn how to create multiple UI elements from a given JSON with previous and next buttons to navigate between each data.",
+      image: "https://i.imgur.com/a5J9YPX.png",
+      handleOnClick: () =>
+        window
+          .open("https://github.com/luisluft/react-reviews", "_blank")
+          .focus(),
+    },
+    {
+      title: "reactTours",
+      description:
+        "Create multiple UI elements from a given JSON with show more and show less toggle and ability to remove them one by one.",
+      image: "https://i.imgur.com/ncDhMiq.png",
+      handleOnClick: () =>
+        window.open("https://github.com/luisluft/reactTours", "_blank").focus(),
+    },
+    {
+      title: "reactBirthdayReminder",
+      description:
+        "Create multiple UI elements from a given JSON and remove them all at once.",
+      image: "https://i.imgur.com/KSp6TTX.png",
+      handleOnClick: () =>
+        window
+          .open("https://github.com/luisluft/reactBirthdayReminder", "_blank")
+          .focus(),
+    },
   ];
 
   return <Cards details={details} />;

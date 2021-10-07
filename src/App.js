@@ -84,7 +84,8 @@ const App = () => {
     },
     {
       title: "react-slider",
-      description: "Simple react project used to create a slider.",
+      description:
+        "Simple react project used to create a slider user interface.",
       image: "https://i.imgur.com/mzxr8Vs.png",
       handleOnClick: () =>
         window

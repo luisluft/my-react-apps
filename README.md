@@ -5,4 +5,4 @@ A collection of 15+ simple react apps developed to learn the library.
 
 # Site deployed
 
-Check it out [here](https://my-react-apps.netlify.app)
+Check it out [here](https://luft-react-apps.netlify.app)

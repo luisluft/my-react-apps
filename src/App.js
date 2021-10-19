@@ -156,6 +156,16 @@ const App = () => {
           .open("https://github.com/luisluft/react-markdown", "_blank")
           .focus(),
     },
+    {
+      title: "react-random-user",
+      description:
+        "React app that uses a random user API to display user details dynamically on hover.",
+      image: "https://i.imgur.com/aoLSB1p.png",
+      handleOnClick: () =>
+        window
+          .open("https://github.com/luisluft/react-random-user", "_blank")
+          .focus(),
+    },
   ];
 
   return <Cards details={details} />;

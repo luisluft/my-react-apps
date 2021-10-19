@@ -146,6 +146,16 @@ const App = () => {
           .open("https://github.com/luisluft/reactBirthdayReminder", "_blank")
           .focus(),
     },
+    {
+      title: "react-markdown",
+      description:
+        "React app that works as a markdown editor using an external API.",
+      image: "https://i.imgur.com/uOyEM01.png",
+      handleOnClick: () =>
+        window
+          .open("https://github.com/luisluft/react-markdown", "_blank")
+          .focus(),
+    },
   ];
 
   return <Cards details={details} />;

@@ -166,6 +166,16 @@ const App = () => {
           .open("https://github.com/luisluft/react-random-user", "_blank")
           .focus(),
     },
+    {
+      title: "react-pagination",
+      description:
+        "React app that uses API fetching and client side pagination.",
+      image: "https://i.imgur.com/QWjwfun.png",
+      handleOnClick: () =>
+        window
+          .open("https://github.com/luisluft/react-pagination", "_blank")
+          .focus(),
+    },
   ];
 
   return <Cards details={details} />;

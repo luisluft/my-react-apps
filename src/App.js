@@ -176,6 +176,16 @@ const App = () => {
           .open("https://github.com/luisluft/react-pagination", "_blank")
           .focus(),
     },
+    {
+      title: "react-stock-photos",
+      description:
+        "React app used to fetch data from API and display it with infinite scrolling features.",
+      image: "https://i.imgur.com/6kAr4CH.png",
+      handleOnClick: () =>
+        window
+          .open("https://github.com/luisluft/react-stock-photos", "_blank")
+          .focus(),
+    },
   ];
 
   return <Cards details={details} />;

@@ -186,6 +186,19 @@ const App = () => {
           .open("https://github.com/luisluft/react-stock-photos", "_blank")
           .focus(),
     },
+    {
+      title: "react-dark-mode",
+      description:
+        "React app used to toggle light and dark mode and preserve the user choice through local storage.",
+      image: "https://i.imgur.com/JUdQsSZ.png",
+      handleOnClick: () =>
+        window
+          .open(
+            "https://github.com/luisluft/react-dark-mode/edit/main/README.md",
+            "_blank"
+          )
+          .focus(),
+    },
   ];
 
   return <Cards details={details} />;

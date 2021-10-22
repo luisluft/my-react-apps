@@ -193,10 +193,7 @@ const App = () => {
       image: "https://i.imgur.com/JUdQsSZ.png",
       handleOnClick: () =>
         window
-          .open(
-            "https://github.com/luisluft/react-dark-mode/edit/main/README.md",
-            "_blank"
-          )
+          .open("https://github.com/luisluft/react-dark-mode", "_blank")
           .focus(),
     },
   ];

@@ -196,6 +196,16 @@ const App = () => {
           .open("https://github.com/luisluft/react-dark-mode", "_blank")
           .focus(),
     },
+    {
+      title: "react-movie-database",
+      description:
+        "React app that fetches from a public API to display, and search movies with their important information.",
+      image: "https://i.imgur.com/RVe7xuD.png",
+      handleOnClick: () =>
+        window
+          .open("https://github.com/luisluft/react-movie-database", "_blank")
+          .focus(),
+    },
   ];
 
   return <Cards details={details} />;

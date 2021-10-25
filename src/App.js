@@ -206,6 +206,16 @@ const App = () => {
           .open("https://github.com/luisluft/react-movie-database", "_blank")
           .focus(),
     },
+    {
+      title: "react-hacker-news",
+      description:
+        "React app that displays paginated results of a search query with links from a public API.",
+      image: "https://i.imgur.com/MpWjpVp.png",
+      handleOnClick: () =>
+        window
+          .open("https://github.com/luisluft/react-hacker-news", "_blank")
+          .focus(),
+    },
   ];
 
   return <Cards details={details} />;

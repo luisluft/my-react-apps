@@ -207,7 +207,7 @@ const App = () => {
           .focus(),
     },
     {
-      title: "react-hacker-news",
+      title: "react-quiz",
       description:
         "React app that displays paginated results of a search query with links from a public API.",
       image: "https://i.imgur.com/MpWjpVp.png",
@@ -215,6 +215,14 @@ const App = () => {
         window
           .open("https://github.com/luisluft/react-hacker-news", "_blank")
           .focus(),
+    },
+    {
+      title: "react-quiz",
+      description:
+        "React app that displays quiz from a public API and evaluates the amount of correct answers from the user.",
+      image: "https://i.imgur.com/UMJPtiM.png",
+      handleOnClick: () =>
+        window.open("https://github.com/luisluft/react-quiz", "_blank").focus(),
     },
   ];
 

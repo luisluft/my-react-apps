@@ -224,6 +224,16 @@ const App = () => {
       handleOnClick: () =>
         window.open("https://github.com/luisluft/react-quiz", "_blank").focus(),
     },
+    {
+      title: "react-user-list",
+      description:
+        "React app that stores a user list and displays it. Also validates data with an error modal.",
+      image: "https://i.imgur.com/57GyvUQ.png",
+      handleOnClick: () =>
+        window
+          .open("https://github.com/luisluft/react-user-list", "_blank")
+          .focus(),
+    },
   ];
 
   return <Cards details={details} />;

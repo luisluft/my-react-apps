@@ -234,6 +234,16 @@ const App = () => {
           .open("https://github.com/luisluft/react-user-list", "_blank")
           .focus(),
     },
+    {
+      title: "react-authentication",
+      description:
+        "React app that implements a simple authentication using localstorage and react hooks.",
+      image: "https://i.imgur.com/f7HAcNj.png",
+      handleOnClick: () =>
+        window
+          .open("https://github.com/luisluft/react-authentication", "_blank")
+          .focus(),
+    },
   ];
 
   return <Cards details={details} />;

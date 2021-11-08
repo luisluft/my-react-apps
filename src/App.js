@@ -244,6 +244,16 @@ const App = () => {
           .open("https://github.com/luisluft/react-authentication", "_blank")
           .focus(),
     },
+    {
+      title: "react-food-app",
+      description:
+        "React app for a food order menu using useState, useEffect, context, and more.",
+      image: "https://i.imgur.com/CeslvkJ.png",
+      handleOnClick: () =>
+        window
+          .open("https://github.com/luisluft/react-food-app", "_blank")
+          .focus(),
+    },
   ];
 
   return <Cards details={details} />;

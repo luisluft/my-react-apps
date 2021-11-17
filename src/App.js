@@ -254,6 +254,16 @@ const App = () => {
           .open("https://github.com/luisluft/react-food-app", "_blank")
           .focus(),
     },
+    {
+      title: "react-forms-and-inputs",
+      description:
+        "React app that validates user input and handles form submission using react hooks and reducer.",
+      image: "https://i.imgur.com/40QeIWe.png",
+      handleOnClick: () =>
+        window
+          .open("https://github.com/luisluft/react-forms-and-inputs", "_blank")
+          .focus(),
+    },
   ];
 
   return <Cards details={details} />;

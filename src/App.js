@@ -264,6 +264,16 @@ const App = () => {
           .open("https://github.com/luisluft/react-forms-and-inputs", "_blank")
           .focus(),
     },
+    {
+      title: "react-shopping-cart",
+      description:
+        "React app that uses a firebase backend to save the state of a shopping cart.",
+      image: "https://i.imgur.com/h8EAYxX.png",
+      handleOnClick: () =>
+        window
+          .open("https://github.com/luisluft/react-shopping-cart", "_blank")
+          .focus(),
+    },
   ];
 
   return <Cards details={details} />;

@@ -274,6 +274,16 @@ const App = () => {
           .open("https://github.com/luisluft/react-shopping-cart", "_blank")
           .focus(),
     },
+    {
+      title: "react-great-quotes",
+      description:
+        "React app that lets the user add his favorite quotes and add comments to said quotes. This is done using vue router and firebase.",
+      image: "https://i.imgur.com/vxFqwIg.png",
+      handleOnClick: () =>
+        window
+          .open("https://github.com/luisluft/react-great-quotes", "_blank")
+          .focus(),
+    },
   ];
 
   return <Cards details={details} />;
